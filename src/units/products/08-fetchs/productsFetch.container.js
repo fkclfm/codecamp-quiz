@@ -14,7 +14,8 @@ export default function ProductsFetch() {
     deleteProduct({
       variables : { productId: event.target.id },   
       refetchQueries : [
-        { query: FETCH_PRODUCTS,
+        { 
+          query: FETCH_PRODUCTS,
           variables: {page: Number(router.query.products) }
         }
       ]
