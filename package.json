@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+<<<<<<< HEAD
     "lint": "next lint",
     "generate": "graphql-codegen"
   },
@@ -61,4 +62,19 @@
     "@types/react": "17.0.2"
   },
   "type": "module"
+=======
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.10.4",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "antd": "^5.17.3",
+    "axios": "^1.7.2",
+    "graphql": "^16.8.1",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  }
+>>>>>>> 8b9257483f766ef1e84073be436dc3f9319d5ab3
 }
